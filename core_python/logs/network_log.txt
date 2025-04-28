@@ -1,3 +1,0 @@
-Bytes Sent: 831070 | Bytes Received: 8600932 | Packets Sent: 4903 | Packets Received: 7353
-Bytes Sent: 831739 | Bytes Received: 8602110 | Packets Sent: 4911 | Packets Received: 7362
-Bytes Sent: 838026 | Bytes Received: 8609804 | Packets Sent: 4956 | Packets Received: 7402
