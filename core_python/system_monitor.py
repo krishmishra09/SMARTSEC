@@ -20,12 +20,14 @@ try:
         cpu_percent = psutil.cpu_percent(interval=1)
         memory = psutil.virtual_memory()
         disk = psutil.disk_usage('/')
+        swap_memory=psutil.swap_memory()
         
         # Format the log entry
         log_entry = (
             f"CPU Usage: {cpu_percent}% | "
             f"Memory Usage: {memory.percent}% | "
-            f"Disk Usage: {disk.percent}%\n"
+            f"Disk Usage: {disk.percent}%\n |" 
+            f"swap memory: {swap_memory}"
         )
         
         # Print to console
@@ -41,3 +43,5 @@ try:
 except KeyboardInterrupt:
     print("\nMonitoring stopped by user.")
     log_file.close()
+
+
