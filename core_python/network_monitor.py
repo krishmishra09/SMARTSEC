@@ -1,4 +1,8 @@
 # network_monitor.py
+#this file tracks total bandwidth usage not the  indivisual active connections and monitors 
+# total file sent or recieved and packets sent or recieved 
+
+# it detects the sudden spikes or drops in usage
 
 import psutil
 import time
@@ -27,6 +31,7 @@ try:
         )
 
         # Print to console
+        #network load over time
         print(log_entry.strip())
 
         # Write to log file

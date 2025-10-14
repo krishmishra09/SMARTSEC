@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #1a1a2e;
     color: #e0e0e0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,5 +10,55 @@ body {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
+} */
 /* Additional styles for grids, tables, etc. */
+
+/* Apply to the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* Background image */
+  background: url('yeee.jpg') no-repeat center center fixed;
+
+  /* Make it cover entire screen */
+  background-size: cover;
+
+  /* Optional: subtle dark overlay to improve text readability */
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); /* dark overlay */
+  z-index: -1;
+}
+
+/* Style your cards for better contrast */
+.card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(52, 50, 109, 0.4);
+  color: #3f3939;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+}

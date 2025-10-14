@@ -10,6 +10,7 @@ import os
 if not os.path.exists('logs'):
     os.makedirs('logs')
 
+
 # Open log file
 log_file = open('logs/process_log.txt', 'a')
 
@@ -43,7 +44,7 @@ try:
                 # Some processes may terminate or deny access during monitoring
                 continue
 
-        log_file.flush()
+        log_file.flush()#ensures that all data is written imediately
 
         # Wait for 10 seconds before next snapshot
         time.sleep(10)
