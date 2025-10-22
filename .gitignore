@@ -3,3 +3,5 @@ logs/*.txt
 merged_train.csv
 *.pyccore_python/random_forest_model.joblib 
 "core_python/random_forest_model.joblib" 
+"SMARTSEC-mirror.git/" 
+"core_python/random_forest_model.joblib" 
