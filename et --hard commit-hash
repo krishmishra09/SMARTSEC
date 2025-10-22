@@ -1,0 +1,19 @@
+[33me4dd3cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m560925c[m HEAD@{1}: reset: moving to HEAD~1
+[33me4a29ed[m HEAD@{2}: commit: this is all the files
+[33m560925c[m HEAD@{3}: commit: this is the core of the project in this all the python and machine learning code is present
+[33me4dd3cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{4}: commit: this the hybris machine learning logic
+[33mb974daa[m HEAD@{5}: commit: this is css file to style the html page
+[33m8b07b5b[m HEAD@{6}: commit: this is the java script file which makes my app.py looks dynamic
+[33me1b2f81[m HEAD@{7}: commit: Adding app.py file which have the backend code made with flask and also uses socket
+[33m3d0544a[m HEAD@{8}: commit: update the swap_memory addition on this code
+[33m6f488d0[m HEAD@{9}: commit: these are the log files that willstore the monitring part
+[33m7b0f066[m HEAD@{10}: commit: Remove logs/*.txt files from tracking
+[33m5e2f12c[m HEAD@{11}: commit: these are the log files that willstore the monitring part
+[33m56c1cf1[m HEAD@{12}: commit: This pyhotn file include the network
+[33m240dc36[m HEAD@{13}: commit: ADD the process_monitor pyhton code this will ensure the monitoring of the processes in the system using a psutil library
+[33m1a358cf[m HEAD@{14}: commit: This file will contain ans store all your system_monitor log
+[33ma609fbf[m HEAD@{15}: commit: this ensures that whatever file name is written in this, will not show inside containt in github
+[33me17b45c[m HEAD@{16}: commit: this file will contain ans store all your system_monitor log
+[33m5136b6a[m HEAD@{17}: commit: Adding the system_monitoring file this file monitor the system like their cup usages memory and disk usages
+[33mbfd7983[m HEAD@{18}: clone: from https://github.com/krishmishra09/SMARTSEC.git
