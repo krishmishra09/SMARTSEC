@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time System Monitor & IDS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>AI-Powered System Monitor & IDS</h1>
+    </header>
+    <main>
+        <div class="metrics-grid">
+            <div class="card">
+                <h2>CPU Usage</h2>
+                <p id="cpu-usage">0%</p>
+            </div>
+            <div class="card">
+                <h2>Memory Usage</h2>
+                <p id="mem-usage">0%</p>
+            </div>
+            <div class="card">
+                <h2>CPU Load (1m)</h2>
+                <p id="cpu-load">0.0</p>
+            </div>
+        </div>
+        <div class="charts-grid">
+            <div class="chart-container card">
+                <h2>Network Traffic (Bytes/sec)</h2>
+                <div id="net-traffic-chart"></div>
+            </div>
+            <div class="chart-container card">
+                <h2>Alert Types</h2>
+                <div id="alert-pie-chart"></div>
+            </div>
+        </div>
+        <div class="logs-grid">
+            <div class="log-container card">
+                <h2>Security Alerts</h2>
+                <table id="alert-log">
+                    <thead><tr><th>Timestamp</th><th>Severity</th><th>Type</th><th>Description</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="log-container card">
+                <h2>Top Processes (by CPU)</h2>
+                <table id="process-list">
+                     <thead><tr><th>PID</th><th>Name</th><th>CPU %</th><th>Memory %</th></tr></thead>
+                     <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,2 +1,3 @@
 # Ignore all log files inside logs/ folder
 logs/*.txt
+merged_train.csv
